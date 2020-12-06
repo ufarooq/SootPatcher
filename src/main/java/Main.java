@@ -104,7 +104,7 @@ public class Main {
                       SootMethod onClick =
                           Scene.v()
                               .getMethod(
-                                  "<com.example.umarfarooq.livedroidtest: void onClick1(android.view.View)>");
+                                  "<com.example.umarfarooq.livedroidtest.MainActivity: void onClick1(android.view.View)>");
                       patchMethod(onClick);
                     }
                   }));
